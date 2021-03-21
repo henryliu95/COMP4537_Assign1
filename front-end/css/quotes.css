@@ -1,0 +1,32 @@
+.row {
+    flex: auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.col {
+    display: block;
+}
+
+textarea {
+    /* flex: 1;
+    display: block;
+    margin: 2px 0;
+    padding: 1px;
+    border: 1px solid; */
+    display: inline-flex;
+    resize: none;
+    font-size: 13px;
+    padding: 10px;
+    height:100px;
+    min-height: 38px;
+    width: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .quoteBtn {
+      display: inline-block;
+      border: 2px solid;
+      width: 100px;
+  }
